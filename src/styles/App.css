@@ -1,5 +1,9 @@
-.main-content-area {
-  background-color: green;
+.main-content-container {
+  background-color: black;
+  background-image: url('../images/mars_bg.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 .search-area {
@@ -7,12 +11,22 @@
   margin-top: 50px;
 }
 
+.main-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .image-area {
   background-color: grey;
   border-radius: 25px;
+  margin-bottom: 50px;
 }
 
 .each-image {
   padding: 15px;
   border-radius: 25px;
+}
+
+#root {
+  background-color: grey;
 }

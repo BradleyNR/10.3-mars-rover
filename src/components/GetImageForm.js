@@ -71,9 +71,9 @@ class GetImageForm extends Component{
     });
 
     return(
-      <div className='main-content-area'>
-
+      <div className=''>
         <div className='col-md-6 col-md-offset-5 search-area well'>
+          <h1 className='main-title'> Mars Rover Image Search </h1>
           <label htmlFor="rover">Rover</label>
             <select className='form-control' onChange={this.handleRover} id="rover" value={this.state.rover}>
               <option value="Curiosity">Curiosity</option>
